@@ -27,17 +27,27 @@
         </section>
         <!-- -------------------------------------------------------- -->
 
+
+        <!----------------------------------------Cards Field-------------------------------->
         <section>
            
-
-                <div class="row row-cols-1 row-cols-md-3 g-4" id="phone-container">
-                    <!-- <div class="col">
-                     
-                    </div> -->
-                  
+                  <div class="row row-cols-1 row-cols-md-3 g-4" id="phone-container">
+                 
                   </div>
 
-            
+
+            <div class="mt-4 d-none" id="no-found-message">
+                <h3 class="text-warning">No Phone Found. Please try again</h3>
+            </div>
+
+             </section>
+<!-----------------------------------------------------Loader------------------------>
+        <section class="d-none" id="loader">
+            <div class="d-flex justify-content-center align-items-center " style="height: 200px;">
+                <div class="spinner-border text-success" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+              </div>
         </section>
     </main>
     
